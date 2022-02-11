@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300&display=swap');
+
+* {
+    font-family: 'Quicksand',sans-serif, monospace;
+
+}
+
+.logo {
+    display: flex;
+    width: 275px;
+    margin:auto;
+}
+
+.title {
+    font-family: 'Amatic SC';
+    text-align: center;
+    color: rgb(5, 5, 5) ;
+    font-weight: 150;
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    gap:60px;
+   }
+
+div img {
+    margin-top: auto;
+    width:400px;
+    height:500px;
+}
+
+.food img:hover{
+    transform: scale(1.10,1.10);
+    transition-duration: 0s;
+    border-radius: 25px;
+    box-shadow:rgb(248, 209, 137) 0 0 5px;
+}
+
+.body {
+    padding: 15px;
+}
+
+.food-img {
+    border-radius: 25px;
+    width: 450px;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.feature {
+    font-family: 'Amatic SC', monospace, sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.description,
+.ingredients,
+.steps {
+    box-sizing: border-box;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 2%;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.description {
+    width: 895px;
+    height: 600px;
+}
+
+.ingredients {
+    width: 450px;
+    height: 600px;
+    font-size: 1.5ex;   
+}
+
+.steps {
+    width: 1825px;
+    height: fit-content;
+}
+

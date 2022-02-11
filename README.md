@@ -1,1 +1,1 @@
-# PROJECT-RECIPES
+# PROJECT-recipes
